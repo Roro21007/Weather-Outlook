@@ -1,2 +1,73 @@
 /* 5 blocks for days*/
 /* current day at top*/
+:root {
+    --purple: #4A314D;
+    --black: #1A090D;
+    --green: #ACE894;
+    --gray: #6B6570;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Arial, Helvetica, serif;
+    margin: 0;
+}
+
+header {
+    padding: 60px;
+    text-align: center;
+    background: var(--purple);
+    color: var(--black);
+}
+
+nav {
+    display: flex;
+    background-color: var(--green);
+}
+
+nav p {
+    padding: 14px 20px;
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    flex: 30%;
+    background-color: var(--gray);
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.days {
+    align-items: center;
+    width: 600px;
+    height: 200px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50px;
+    padding: 10px;
+    flex: 1 0 300px;
+    box-shadow: 10px 10px 5px rgb(61, 53, 53);
+    margin: 20px;
+}
+
+footer {
+    padding: 30px;
+    text-align: center;
+    background: var(--purple);
+    color: var(--black);
+}
+
+.current.day {
+    
+}
+.next.day
+.second
+.third
+.fourth
+.fifth
